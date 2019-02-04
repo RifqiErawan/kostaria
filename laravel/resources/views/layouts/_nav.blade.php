@@ -27,27 +27,33 @@
         </div>
       </div>
       <ul class="navbar-nav">
+
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/survey">Survey</a>
+        </li>
+
         <li class="nav-item p-0">
-          <a class="nav-link" rel="tooltip" title="Add us on LINE Messenger" data-placement="bottom" href="kostaria.id/url/line" target="_blank">
+          <a class="nav-link" rel="tooltip" title="Add us on LINE Messenger" data-placement="bottom" href="https://kostaria.id/url/line" target="_blank">
             <i class="fab fa-line"></i>
             <p class="d-lg-none d-xl-none">Line @</p>
           </a>
         </li>
-        <!-- <li class="nav-item p-0">
-          <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/" target="_blank">
-            <i class="fab fa-facebook-square"></i>
-            <p class="d-lg-none d-xl-none">Facebook</p>
-          </a>
-        </li> -->
         <li class="nav-item p-0">
-          <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/kostaria.id" target="_blank">
+          <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://kostaria.id/url/ig" target="_blank">
             <i class="fab fa-instagram"></i>
             <p class="d-lg-none d-xl-none">Instagram</p>
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://kotaria.id/about">About</a>
+        <li class="nav-item p-0">
+          <a class="nav-link" rel="tooltip" title="Chat me on Whatsapp" data-placement="bottom" href="https://kostaria.id/url/wa" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            <p class="d-lg-none d-xl-none">Whatsapp</p>
+          </a>
         </li>
+
       </ul>
     </div>
   </div>

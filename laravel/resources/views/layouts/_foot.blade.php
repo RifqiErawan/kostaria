@@ -7,11 +7,17 @@
       </div>
       <div class="col-md-3">
         <ul class="nav">
+
           <li class="nav-item">
-            <a href="https://kostaria.id" class="nav-link">
-              Home
-            </a>
+            <a href="/" class="nav-link">Back to Home</a>
           </li>
+          <li class="nav-item">
+            <a href="/about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="/survey" class="nav-link">Survey</a>
+          </li>
+
         </ul>
       </div>
       <div class="col-md-3">
