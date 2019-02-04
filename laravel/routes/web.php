@@ -11,13 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('page/home');
-});
+Route::get('/','PageController@getIndex');
+// Route::get('/about','PageController@getAbout');
+// Route::get('/contact','PageController@getContact');
 
-Route::get('/page','KostController@index');
-Route::get('/page/{id}','KostController@show');
+// Route::get('/survey','PageController@getSurvey');
+// Route::get('/upload','PageController@getSurvey');
+// Route::get('/survey','PageController@getSurvey');
 
-Route::get('/viewmaster', function () {
-    return view('layouts/master');
-});
+// Route::get('/page/{id}','PageController@show');
