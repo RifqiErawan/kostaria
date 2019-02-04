@@ -12,6 +12,7 @@
 */
 
 Route::get('/','PageController@getIndex');
+Route::resource('kost','KostController');
 // Route::get('/about','PageController@getAbout');
 // Route::get('/contact','PageController@getContact');
 
