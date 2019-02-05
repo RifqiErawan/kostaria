@@ -1,61 +1,20 @@
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg fixed-top navbar-transparent " color-on-scroll="10">
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
   <div class="container">
-    <div class="navbar-translate">
-      <a class="navbar-brand" href="/">
-        <span>KOSTARIA.ID</span>
-      </a>
-      <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-bar bar1"></span>
-        <span class="navbar-toggler-bar bar2"></span>
-        <span class="navbar-toggler-bar bar3"></span>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse justify-content-end" id="navigation">
-      <div class="navbar-collapse-header">
-        <div class="row">
-          <div class="col-6 collapse-brand">
-            <a>
-              KOSTARIA.ID
-            </a>
-          </div>
-          <div class="col-6 collapse-close text-right">
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-              <i class="tim-icons icon-simple-remove"></i>
-            </button>
-          </div>
-        </div>
-      </div>
-      <ul class="navbar-nav">
+    <a class="navbar-brand" href="/">kostaria.id</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="oi oi-menu"></span> Menu
+    </button>
 
-        <li class="nav-item">
-          <a class="nav-link" href="/about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/survey">Survey</a>
-        </li>
-
-        <li class="nav-item p-0">
-          <a class="nav-link" rel="tooltip" title="Add us on LINE Messenger" data-placement="bottom" href="https://kostaria.id/url/line" target="_blank">
-            <i class="fab fa-line"></i>
-            <p class="d-lg-none d-xl-none">Line @</p>
-          </a>
-        </li>
-        <li class="nav-item p-0">
-          <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://kostaria.id/url/ig" target="_blank">
-            <i class="fab fa-instagram"></i>
-            <p class="d-lg-none d-xl-none">Instagram</p>
-          </a>
-        </li>
-        <li class="nav-item p-0">
-          <a class="nav-link" rel="tooltip" title="Chat me on Whatsapp" data-placement="bottom" href="https://kostaria.id/url/wa" target="_blank">
-            <i class="fab fa-whatsapp"></i>
-            <p class="d-lg-none d-xl-none">Whatsapp</p>
-          </a>
-        </li>
-
+    <div class="collapse navbar-collapse" id="ftco-nav">
+      <ul class="navbar-nav ml-auto">
+        <!-- List Navbar -->
+        <li class="nav-item active"><a href="/" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="/blog" class="nav-link">Blog</a></li>
+        <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
+        <li class="nav-item"><a href="/register" class="nav-link">Register</a></li>
+        <!-- End List Navbar -->
       </ul>
     </div>
   </div>
 </nav>
-<!-- End Navbar -->

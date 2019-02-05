@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 
-@include('layouts._head')
+  @include('layouts._head')
 
-<body class="landing-page">
+  <body>
 
-  @include('layouts._nav')
+	  @include('layouts._nav')
 
-  @yield('content')
+    @yield('content')
 
-  <div class="wrapper">
     @include('layouts._foot')
-  </div>
 
-  @include('layouts._script')
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
-</body>
+    @include('layouts._script')
 
+  </body>
 </html>
